@@ -4,6 +4,7 @@ import ClassComponent from './Components/ClassComponent';
 import FunctionalComponent from './Components/FunctionalComponent';
 import JSX from './Components/JSX';
 import State from './Components/State'
+import SetStateCounter from './Components/SetStateCounter';
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       {/* <FunctionalComponent name='Bruce'/>
      <ClassComponent name='Mr. Beast'/> */}
       {/* <JSX/> */}
-      <State />
+      {/* <State /> */}
+      <SetStateCounter />
     </div>
   );
 }
