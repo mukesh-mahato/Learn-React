@@ -7,9 +7,9 @@ import JSX from './Components/JSX';
 function App() {
   return (
     <div className="App">
-      {/* <FunctionalComponent /> */}
-     {/* <ClassComponent/> */}
-      <JSX/>
+      <FunctionalComponent name='Bruce'/>
+     <ClassComponent name='Mr. Beast'/>
+      {/* <JSX/> */}
     </div>
   );
 }
