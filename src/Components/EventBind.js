@@ -33,7 +33,7 @@ class EventBind extends Component {
         {/* <button onClick={() => this.clickHandler()}>Click</button> */}
         {/* Approach-3: Binding in the class Constructor*/}
         {/* <button onClick={this.clickHandler}>Click</button> */}
-        {/* Use an Arrow function as a class property */}
+        {/* Approach-4: Use an Arrow function as a class property */}
         <button onClick={this.clickHandler}>Click</button>
       </div>
     )
