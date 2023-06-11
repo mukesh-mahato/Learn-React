@@ -8,13 +8,22 @@ import SetStateCounter from './Components/SetStateCounter';
 import FunctionClick from './Components/FunctionClick';
 import ClassClick from './Components/ClassClick';
 import EventBind from './Components/EventBind';
-// import ParentComponent from './Components/ParentComponent';
+import ParentComponent from './Components/ParentComponent';
 import ConditionalRendering from './Components/ConditionalRendering';
+import StyleSheets from './Components/StyleSheets';
+import Inline from './Components/Inline';
+import './Components/appStyles.css';
+import style from './Components/appStyles.module.css'
+
 
 function App() {
   return (
     <div className="App">
-      <ConditionalRendering />
+      <h1 className='error'>Error</h1>
+      <h1 className={style.sucess}>Sucess</h1>
+      {/* <Inline /> */}
+      {/* <StyleSheets primary={false} /> */}
+      {/* <ConditionalRendering /> */}
       {/* <ParentComponent /> */}
       {/* <EventBind /> */}
       {/* <ClassClick /> */}
