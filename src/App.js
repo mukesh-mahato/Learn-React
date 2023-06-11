@@ -12,15 +12,17 @@ import ParentComponent from './Components/ParentComponent';
 import ConditionalRendering from './Components/ConditionalRendering';
 import StyleSheets from './Components/StyleSheets';
 import Inline from './Components/Inline';
-import './Components/appStyles.css';
+// import './Components/appStyles.css';
 import style from './Components/appStyles.module.css'
+import Form from './Components/Form';
 
 
 function App() {
   return (
     <div className="App">
-      <h1 className='error'>Error</h1>
-      <h1 className={style.sucess}>Sucess</h1>
+      <Form />
+      {/* <h1 className='error'>Error</h1>
+      <h1 className={style.sucess}>Sucess</h1> */}
       {/* <Inline /> */}
       {/* <StyleSheets primary={false} /> */}
       {/* <ConditionalRendering /> */}
