@@ -1,0 +1,7 @@
+// 1. Mounting => constructor, static getDerivedStateFromProps, render and componentDidMount
+
+// 2. Updating => static getDerivedStateFromProps, should ComponentUpdate, render, getSnapshotBeforeUpdate and componentDidUpdate
+
+// 3. Unmounting => componentWillUnmount
+
+// 4. Error Handling => static getDerivedStateFromError and omponentDidCatch
