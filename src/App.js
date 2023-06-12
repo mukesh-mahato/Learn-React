@@ -20,12 +20,14 @@ import FragmentDemo from './Components/FragmentDemo';
 import Table from './Components/Table';
 import PureComponent from './Components/PureComp';
 import ParentComp from './Components/ParentComp';
+import RefsDemo from './Components/RefsDemo';
 
 
 function App() {
   return (
     <div className="App">
-      <ParentComp />
+      <RefsDemo />
+      {/* <ParentComp /> */}
       {/* <Table />
       <FragmentDemo /> */}
       {/* <MountingLifecycleA /> */}
