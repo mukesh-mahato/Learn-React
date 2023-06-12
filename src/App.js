@@ -15,12 +15,14 @@ import Inline from './Components/Inline';
 // import './Components/appStyles.css';
 import style from './Components/appStyles.module.css'
 import Form from './Components/Form';
+import MountingLifecycleA from './Components/MountingLifecycleA';
 
 
 function App() {
   return (
     <div className="App">
-      <Form />
+      <MountingLifecycleA />
+      {/* <Form /> */}
       {/* <h1 className='error'>Error</h1>
       <h1 className={style.sucess}>Sucess</h1> */}
       {/* <Inline /> */}
