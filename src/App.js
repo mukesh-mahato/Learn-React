@@ -16,12 +16,16 @@ import Inline from './Components/Inline';
 import style from './Components/appStyles.module.css'
 import Form from './Components/Form';
 import MountingLifecycleA from './Components/MountingLifecycleA';
+import FragmentDemo from './Components/FragmentDemo';
+import Table from './Components/Table';
 
 
 function App() {
   return (
     <div className="App">
-      <MountingLifecycleA />
+      <Table />
+      {/* <FragmentDemo /> */}
+      {/* <MountingLifecycleA /> */}
       {/* <Form /> */}
       {/* <h1 className='error'>Error</h1>
       <h1 className={style.sucess}>Sucess</h1> */}
