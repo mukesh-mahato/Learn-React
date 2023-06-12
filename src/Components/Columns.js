@@ -18,4 +18,4 @@ function Columns() {
   )
 }
 
-export default Columns
+export default Columns;

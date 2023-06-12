@@ -18,13 +18,16 @@ import Form from './Components/Form';
 import MountingLifecycleA from './Components/MountingLifecycleA';
 import FragmentDemo from './Components/FragmentDemo';
 import Table from './Components/Table';
+import PureComponent from './Components/PureComp';
+import ParentComp from './Components/ParentComp';
 
 
 function App() {
   return (
     <div className="App">
-      <Table />
-      {/* <FragmentDemo /> */}
+      <ParentComp />
+      {/* <Table />
+      <FragmentDemo /> */}
       {/* <MountingLifecycleA /> */}
       {/* <Form /> */}
       {/* <h1 className='error'>Error</h1>
