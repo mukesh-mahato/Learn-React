@@ -34,6 +34,4 @@ class RefsDemo extends Component {
   }
 }
 
-// focus, fetch the input value
-
-export default RefsDemo
+export default RefsDemo;
