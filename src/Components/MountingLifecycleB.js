@@ -19,6 +19,20 @@ class MountingLifecycleB extends Component {
     componentDidMount() {
         console.log('LifecycleB componentDidMount')
     }
+
+    shouldComponentUpdate() {
+      console.log('LifecycleB shouldComponentUpdate')
+      return true
+    }
+
+    getSnapshotBeforeUpdate(prevProps, prevState) {
+      console.log('LifecycleB getSnapShotVeforeUpdate')
+      return null
+    }
+
+    componentDidUpdate() {
+      console.log('LifeCycleB componentDidUpdate')
+    }
     
   render() {
     console.log('LifecycleB render')
