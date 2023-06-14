@@ -24,12 +24,16 @@ import RefsDemo from './Components/RefsDemo';
 import FocusInput from './Components/FocusInput';
 import FRParentInput from './Components/FRParentInput';
 import PortalDemo from './Components/PortalDemo';
+import ClickCounterHOC from './Components/ClickCounterHOC';
+import HoverCounter from './Components/HoverCounter';
 
 
 function App() {
   return (
     <div className="App">
-      <PortalDemo />
+      <ClickCounterHOC/>
+      <HoverCounter/>
+      {/* <PortalDemo /> */}
       {/* <FRParentInput /> */}
       {/* <FocusInput /> */}
       {/* <RefsDemo /> */}
