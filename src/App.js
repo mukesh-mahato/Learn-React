@@ -26,13 +26,17 @@ import FRParentInput from './Components/FRParentInput';
 import PortalDemo from './Components/PortalDemo';
 import ClickCounterHOC from './Components/ClickCounterHOC';
 import HoverCounter from './Components/HoverCounter';
+import ClickCounterRP from './Components/ClickCounterRP';
+import HoverCounterRP from './Components/HoverCounterRP';
 
 
 function App() {
   return (
     <div className="App">
-      <ClickCounterHOC/>
-      <HoverCounter/>
+      <ClickCounterRP />
+      <HoverCounterRP />
+      {/* <ClickCounterHOC/>
+      <HoverCounter/> */}
       {/* <PortalDemo /> */}
       {/* <FRParentInput /> */}
       {/* <FocusInput /> */}
