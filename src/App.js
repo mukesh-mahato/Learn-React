@@ -28,6 +28,7 @@ import ClickCounterHOC from './Components/ClickCounterHOC';
 import HoverCounter from './Components/HoverCounter';
 import ClickCounterRP from './Components/ClickCounterRP';
 import HoverCounterRP from './Components/HoverCounterRP';
+import User from './Components/User';
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
     <div className="App">
       <ClickCounterRP />
       <HoverCounterRP />
+      <User />
       {/* <ClickCounterHOC/>
       <HoverCounter/> */}
       {/* <PortalDemo /> */}
