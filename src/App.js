@@ -35,9 +35,9 @@ import { UserProvider } from './Components/userContext';
 function App() {
   return (
     <div className="App">
-      <UserProvider value="knoxartiste">
+      {/* <UserProvider value="knoxartiste">
 
-      </UserProvider>
+      </UserProvider> */}
       {/* <ClickCounterRP />
       <HoverCounterRP />
       <User /> */}
