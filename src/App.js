@@ -29,14 +29,18 @@ import HoverCounter from './Components/HoverCounter';
 import ClickCounterRP from './Components/ClickCounterRP';
 import HoverCounterRP from './Components/HoverCounterRP';
 import User from './Components/User';
+import { UserProvider } from './Components/userContext';
 
 
 function App() {
   return (
     <div className="App">
-      <ClickCounterRP />
+      <UserProvider value="knoxartiste">
+
+      </UserProvider>
+      {/* <ClickCounterRP />
       <HoverCounterRP />
-      <User />
+      <User /> */}
       {/* <ClickCounterHOC/>
       <HoverCounter/> */}
       {/* <PortalDemo /> */}
