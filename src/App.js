@@ -30,11 +30,16 @@ import ClickCounterRP from './Components/ClickCounterRP';
 import HoverCounterRP from './Components/HoverCounterRP';
 import User from './Components/User';
 import { UserProvider } from './Components/userContext';
+import UserRP from './Components/UserRP';
+import CounterRP from './Components/CounterRP';
 
 
 function App() {
   return (
     <div className="App">
+      <CounterRP render={ (count, countIncrement) => <ClickCounterRP count={count} countIncrement={countIncrement}/>}/>
+      <CounterRP render={ (count, countIncrement) => <HoverCounterRP count={count} countIncrement={countIncrement}/>}/>
+      {/* <UserRP render={ (isLoggedIn) => isLoggedIn ? 'Mukesh' : 'Guest'}/> */}
       {/* <UserProvider value="knoxartiste">
 
       </UserProvider> */}
